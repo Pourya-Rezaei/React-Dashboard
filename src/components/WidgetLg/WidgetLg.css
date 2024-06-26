@@ -1,0 +1,66 @@
+.widget-lg {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.widget-lg__title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widget-lg__table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widget-lg__tr {}
+
+.widge-lg-th {
+    text-align: start;
+}
+
+.widget-lg__user {
+    display: flex;
+    align-items: center;
+}
+
+.widget-lg__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widget-lg__username {}
+
+.widget-lg__date,
+.widget-lg__amount {
+    font-weight: 300;
+}
+
+.widget-lg__status {}
+
+.widget-lg__btn {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.widget-lg__btn.Approved {
+    color: #3bb077;
+    background-color: #e5faf2;
+}
+
+.widget-lg__btn.Declined {
+    color: #d95087;
+    background-color: #fff0f1;
+}
+
+.widget-lg__btn.Pending {
+    color: #2a7ade;
+    background-color: #ebf1fe;
+}
+
+.Approved {}
