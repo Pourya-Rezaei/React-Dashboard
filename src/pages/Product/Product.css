@@ -1,0 +1,146 @@
+.product {
+    flex: 4;
+    padding: 20px;
+}
+
+.product-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.product-title {}
+
+.product-add__btn {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: teal;
+}
+
+.product-top {
+    display: flex;
+}
+
+.product-top__left,
+.product-top__right {
+    flex: 1;
+}
+
+.product-top__right {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.product-info__top {
+    display: flex;
+    align-items: center;
+}
+
+.product-info__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.product-top__name {
+    font-weight: 600;
+}
+
+.product-info__botton {
+    margin-top: 10px;
+
+}
+
+.product-info__item {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product-info__key {
+    font-weight: 600;
+}
+
+.product-info__value {
+    font-weight: 200;
+}
+
+.product-bottom {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.product-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-form__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-form__left>label {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.product-form__left>input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.product-form__left>input:focus {
+    outline: none;
+}
+
+
+.product-form__left>select {
+    margin-bottom: 10px;
+}
+
+
+.product-form__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product-uploader {
+    display: flex;
+    align-items: center;
+}
+
+.product-upload__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.product-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+
+}

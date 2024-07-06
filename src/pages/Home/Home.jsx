@@ -6,7 +6,7 @@ import xAxisData from '../../components/Chart/ChartData'
 import WidgetSm from '../../components/WidgetSm/WidgetSm'
 import WidgetLg from '../../components/WidgetLg/WidgetLg'
 export default function Home() {
-    const [chart, setChart] = useState("")
+    const [chart, setChart] = useState([])
     useEffect(() => {
         async function fetchData() {
             await fetch("https://react-db-c0aaf-default-rtdb.firebaseio.com/Chart.json", {
@@ -14,7 +14,7 @@ export default function Home() {
             })
                 .then(res => res.json())
                 .then(data => {
-                    setChart(data)
+                    setChart(Object.entries(data))
                 })
         }
         fetchData()
